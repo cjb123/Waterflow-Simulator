@@ -1,0 +1,26 @@
+
+/*this*/
+.landing-page-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/*this*/
+.filled-obstruction{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    display: inline-flex;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+/*this*/
+.grid-blocks{
+    height: 40px;
+    width: 40px;
+    background-color: #e7e7e7;
+    display: inline-block;
+    border: 1px solid black;
+}

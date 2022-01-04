@@ -8,7 +8,7 @@ import './Dashboard.css'
 
 const Dashboard = () => {
     const [renderLandingPage , setRenderLandingPage] = useState(false)
-    const [rowCount, setRowCount] = useState(0)
+    const [rowCount, setRowCount] = useState(2)
     const [columnCount, setColumnCount] = useState(0)
     const [obstructionCount, setObstructionCount] = useState(0)
 
@@ -16,7 +16,7 @@ const Dashboard = () => {
         const { value, name } = e.target
         console.log(value, name)
         if (name === 'row-count') {
-            setRowCount(value)
+            setRowCount(value + 2)
         }
         if (name === 'column-count') {
             setColumnCount(value)
@@ -41,12 +41,12 @@ const Dashboard = () => {
                         aria-labelledby="discreate-slider"
                         name='row-count'
                         valueLabelDisplay="auto"
-                        defaultValue={rowCount}
+                        defaultValue={0}
                         step={1}
                         min={0}
                         max={10}
                     > </Slider>
-                <span>{rowCount}</span>
+                <span>{rowCount - 2}</span>
 
                 <Col className='p-0 py-2'>Number of columns</Col>
                 
