@@ -2,9 +2,10 @@
 /*this*/
 .landing-page-container {
     max-width: 600px;
-    margin: auto;
 }
-
+.landing-page-header {
+    font-weight: 700;
+}
 /*this*/
 .filled-obstruction{
     height: 40px;
@@ -17,10 +18,18 @@
 }
 
 /*this*/
+.grid { 
+    height: 40px !important
+}
 .grid-blocks{
     height: 40px;
     width: 40px;
     background-color: #e7e7e7;
     display: inline-block;
     border: 1px solid black;
+}
+
+.start-simulation-button , .back-button {
+    background-color: #CDCAC9 !important;
+    color: #000 !important;
 }

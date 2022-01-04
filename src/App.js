@@ -10,6 +10,7 @@ function App() {
   
   return (
     <div className="App">
+      <h1 className='px-4 pt-4 ml-3'>Waterflow simulator</h1>
       <Dashboard/>
     </div>
   );
