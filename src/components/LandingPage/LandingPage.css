@@ -7,7 +7,7 @@
     font-weight: 700;
 }
 /*this*/
-.filled-obstruction{
+.filled-obstruction {
     height: 40px;
     width: 40px;
     background-color: black;
@@ -17,16 +17,51 @@
     cursor: pointer;
 }
 
+.empty-obstruction {
+    height: 40px;
+    width: 40px;
+    background-color: #e7e7e7;
+    display: inline-flex;
+    margin: 10px;
+    border: 1px solid black;
+    position: relative;
+    
+}
+
+
 /*this*/
 .grid { 
     height: 40px !important
 }
-.grid-blocks{
+.grid-blocks {
     height: 40px;
     width: 40px;
     background-color: #e7e7e7;
     display: inline-block;
     border: 1px solid black;
+}
+
+.grid-block-filled {
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    background-color: black;
+    border: 1px solid black;    
+}
+
+.input-grid {
+    height: 45px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.input-block {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #419FC4;
 }
 
 .start-simulation-button , .back-button {
