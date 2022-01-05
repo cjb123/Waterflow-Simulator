@@ -8,4 +8,4 @@ If water is poured into the container with the blocks, it diverts in left and ri
 
 The goal is to build a simulator for Jane. The simulator should be a web application which will allow her to configure the container size (in terms of rows and columns) and the number of blocks, and show a simulation of the water flow inside the container grid
 
-<div style="height: 0; padding-bottom: calc(100.00%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/61d56687977bd00073f4cef6" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+<img src='https://www.kapwing.com/e/61d56687977bd00073f4cef6' />
