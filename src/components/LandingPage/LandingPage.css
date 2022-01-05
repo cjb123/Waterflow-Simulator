@@ -1,12 +1,12 @@
 
-/*this*/
+
 .landing-page-container {
     max-width: 600px;
 }
 .landing-page-header {
     font-weight: 700;
 }
-/*this*/
+
 .filled-obstruction {
     height: 40px;
     width: 40px;
@@ -28,8 +28,6 @@
     
 }
 
-
-/*this*/
 .grid { 
     height: 40px !important
 }
@@ -53,7 +51,6 @@
     height: 45px;
     width: fit-content;
     margin: auto;
-    margin-bottom: 5px;
 }
 
 .input-block {
@@ -62,6 +59,24 @@
     display: inline-block;
     border: 1px solid black;
     background-color: #419FC4;
+}
+.input-block-selected {
+    display: inline-flex;
+}
+
+.selected-input-box {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #0C5B5F;
+}
+
+.selected-empty-box {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: #fff;
 }
 
 .start-simulation-button , .back-button {
